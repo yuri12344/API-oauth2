@@ -1,0 +1,16 @@
+.vagrant/
+vendor/
+config/development.config.php
+data/log/*
+data/cache/*
+data/photo/*
+data/DoctrineORMModule
+!data/cache/.gitkeep
+!data/photo/.gitkeep
+!data/log/.gitkeep
+docker/mysql/db/*
+!docker/mysql/db/.gitkeep
+composer.phar
+.buildpath
+.project
+.settings
